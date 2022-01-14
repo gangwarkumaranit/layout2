@@ -1,0 +1,91 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.header {
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 7px 80px;
+}
+.header div {
+    padding-right: 40px;
+}
+.heading{
+    margin: 55px 80px;
+    background-color: #80808033;
+    padding: 60px 40px 50px 60px;
+    border-radius: 6px;
+}
+.heading button{
+    background-color:#3b9fe6;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 5px;
+    border: 0px;
+}
+.heading > h1,p{
+    margin-bottom: 20px;
+}
+p{
+    line-height: 1.5;    
+}
+hr{
+    margin: -25px 80px;
+    color: rgb(225, 217, 217);
+}
+h2{
+    margin: 93px 80px 30px;
+}
+.container{
+    margin: 30px 80px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.child{
+    border: 1px solid #80808033;
+    width: 260px;
+}
+img{
+    margin: 3px;
+}
+h3,.child >p,.button{
+    text-align: center;
+}
+.child p{
+    margin: 5px 20px;
+}
+.button{
+    margin: 20px 0px 30px;
+}
+ .buy{
+    background-color:#3b9fe6;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 5px;
+    border: 0px;
+}
+.info{
+    border-radius: 5px;
+    padding: 5px 6px;
+    border: 1px solid grey;
+}
+h6{
+    color: grey;
+    margin: 100px 80px;
+}
+#footer{
+    margin-top: 80px;
+}
+
+
+@media screen and (max-width: 683px){
+  .child{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  img{
+      width: 100%;
+  }
+}
